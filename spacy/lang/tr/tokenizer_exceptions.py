@@ -16,7 +16,9 @@ _exc = {
 
 
 for exc_data in [
-    {ORTH: "A.B.D.", NORM: "Amerika Birleşik Devletleri"}]:
+    {ORTH: "A.B.D.", NORM: "Amerika Birleşik Devletleri"},
+    {ORTH: "T.C.", NORM: "Türkiye Cumhuriyeti"},
+    {ORTH: "T.", NORM: "Türkçe"}]:
     _exc[exc_data[ORTH]] = [exc_data]
 
 
